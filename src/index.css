@@ -1,16 +1,28 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Roboto&display=swap");
 body {
-    background-color: rgb(247, 247, 247) ;
-    font-family: 'Roboto', sans-serif ;
+    background-color: rgb(247, 247, 247);
+    font-family: "Roboto", sans-serif;
 }
 .item {
-    background-color: #fff ;
+    background-color: #fff;
     display: flex;
     justify-content: center;
 }
 .contenedor {
     padding: 0 1rem;
 }
-h1,h2,h3,h4,h5{
+h1,
+h2,
+h3,
+h4,
+h5 {
     color: #689bf5;
+}
+.my-custom-scrollbar {
+    position: relative;
+    height: 22.125rem;
+    overflow: auto;
+}
+.table-wrapper-scroll-y {
+    display: block;
 }

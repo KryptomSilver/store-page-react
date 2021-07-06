@@ -5,7 +5,7 @@ const Nav = () => {
     return (
         <nav className="navbar navbar-expand-lg navbar-dark bg-primary header">
             <div className="container-fluid">
-                <a className="navbar-brand" href="#">
+                <a className="navbar-brand" href="#!">
                     Dashboard
                 </a>
                 <button
@@ -32,17 +32,17 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#">
+                            <Link className="nav-link" aria-current="page" to="/orders">
                                 Pedidos
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#">
+                            <a className="nav-link" aria-current="page" href="#!">
                                 Productos
                             </a>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#">
+                            <a className="nav-link" aria-current="page" href="#!">
                                 Usuarios
                             </a>
                         </li>
