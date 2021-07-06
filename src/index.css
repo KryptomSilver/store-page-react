@@ -5,10 +5,12 @@ body {
 }
 .item {
     background-color: #fff ;
-    color: #689bf5;
     display: flex;
     justify-content: center;
 }
 .contenedor {
     padding: 0 1rem;
+}
+h1,h2,h3,h4,h5{
+    color: #689bf5;
 }

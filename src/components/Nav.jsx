@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
 const Nav = () => {
     return (
@@ -20,24 +21,29 @@ const Nav = () => {
                 </button>
                 <div className="collapse navbar-collapse" id="navbarColor01">
                     <ul className="navbar-nav me-auto">
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">
+                        <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="/">
                                 Home
-                            </a>
+                            </Link>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">
+                        <li className="nav-item">
+                            <Link className="nav-link" aria-current="page" to="/sales">
                                 Ventas
-                            </a>
+                            </Link>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">
+                        <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#">
                                 Pedidos
                             </a>
                         </li>
-                        <li class="nav-item">
-                            <a class="nav-link" aria-current="page" href="#">
+                        <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#">
                                 Productos
+                            </a>
+                        </li>
+                        <li className="nav-item">
+                            <a className="nav-link" aria-current="page" href="#">
+                                Usuarios
                             </a>
                         </li>
                     </ul>
