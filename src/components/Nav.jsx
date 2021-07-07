@@ -37,14 +37,14 @@ const Nav = () => {
                             </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#!">
+                            <Link className="nav-link" aria-current="page" to="/products">
                                 Productos
-                            </a>
+                            </Link>
                         </li>
                         <li className="nav-item">
-                            <a className="nav-link" aria-current="page" href="#!">
+                            <Link className="nav-link" aria-current="page" to="/users">
                                 Usuarios
-                            </a>
+                            </Link>
                         </li>
                     </ul>
                     <div>
